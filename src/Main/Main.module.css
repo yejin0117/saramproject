@@ -1,0 +1,153 @@
+.screen {
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #79A7D3, #C3DAF5);
+    text-align: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+/* 헤더 */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #5D9CEC;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.menuIcons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.iconImg {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* 메인 콘텐츠 */
+.mainContent h1 {
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.subText {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.buttons .btn {
+    background-color: #1e6575;
+    padding: 14px 28px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* 이력서 비교 */
+.resumeComparison {
+    padding: 60px 20px;
+}
+
+.resumeComparison h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.resumeImages {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.resumeImages img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.2);
+}
+
+/* 리뷰 영역 */
+.reviewSection {
+    padding: 60px 20px;
+}
+
+.reviewSection h2 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.reviewCard {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 220px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+}
+
+.profileImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.nickname {
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.stars {
+    color: orange;
+    margin: 4px 0;
+}
+
+.reviewText {
+    font-size: 14px;
+    color: #333;
+}
+
+/* 푸터 */
+.footer {
+    margin-top: 60px;
+    font-size: 12px;
+    color: white;
+}
